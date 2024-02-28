@@ -1,6 +1,9 @@
 package secao1fundamentos
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
 	// variaveis e atribuições de tipos
@@ -30,6 +33,29 @@ func main() {
 	fmt.Println(metro)
 	fmt.Println(genero)
 
-	var joao string
-	joao = "João"
+	// operadores
+
+	num1 := 10
+	num2 := 20
+	soma := num1 + num2
+	fmt.Println(soma)
+
+	subtracao := num1 - num2
+	fmt.Println(subtracao)
+
+	multiplicacao := num1 * num2
+	fmt.Println(multiplicacao)
+
+	divisao := num1 / num2
+	fmt.Println(divisao)
+
+	// saber o tipo da variavel com reflect
+	fmt.Println(reflect.TypeOf(num1))
+
+	// concatenando strings
+	texto1 := "texto1"
+	texto2 := "texto2"
+	result := texto1 + texto2
+	fmt.Println(result)
+
 }

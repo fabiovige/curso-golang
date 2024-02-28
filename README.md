@@ -7,3 +7,5 @@
     2. Go Playground
     3. Estrutura de arquivos
     4. Variáveis e atribuição de tipos
+    5. Tipos de dados
+    6. Operadores
